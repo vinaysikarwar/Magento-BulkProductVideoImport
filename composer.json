@@ -1,0 +1,16 @@
+{
+    "name": "webtechnologycodes/videoimport",
+    "description": "WebTechnologyCodes Bulk Video Import module gives a feature to import videos to product in bulk",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+		  "registration.php"
+		],
+		"psr-4": {
+		  "WebTechnologyCodes\\VideoImport\\": ""
+		}
+	}
+}
